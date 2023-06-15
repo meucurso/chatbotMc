@@ -36,7 +36,7 @@ const messages = {
       dashboard: {
         charts: {
           perDay: {
-            title: "Tickets hoje: ",
+            title: "Atendimentos hoje: ",
           },
         },
         messages: {
@@ -360,7 +360,7 @@ const messages = {
         confirmationModal: {
           deleteTitle: "Excluir",
           deleteMessage:
-            "Todos os dados do usuário serão perdidos. Os tickets abertos deste usuário serão movidos para a fila.",
+            "Todos os dados do usuário serão perdidos. Os Atendimentos abertos deste usuário serão movidos para a fila.",
         },
       },
       settings: {
