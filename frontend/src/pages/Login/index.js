@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+import logo from "../assets/logo.png";
 import { Link as RouterLink } from "react-router-dom";
 
 import {
@@ -77,9 +78,7 @@ const Login = () => {
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
-        <Avatar className={classes.avatar}>
-          <LockOutlined />
-        </Avatar>
+      <img src={logo} style={{ margin: "0 auto", width: "70%" }} alt="logodash" />
         <Typography component="h1" variant="h5">
           {i18n.t("login.title")}
         </Typography>
