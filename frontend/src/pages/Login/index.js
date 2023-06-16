@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import logo from "../assets/logo.png";
+import logo from "../../assets/logo.png";
 import { Link as RouterLink } from "react-router-dom";
 
 import {
